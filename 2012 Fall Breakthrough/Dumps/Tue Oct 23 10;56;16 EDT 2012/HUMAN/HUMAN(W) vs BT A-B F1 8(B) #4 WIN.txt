@@ -1,0 +1,10 @@
+HUMAN (W) played 1 3 2 3
+BBBBBBB
+BBBBBBB
+.......
+.......
+...W...
+WWW.WWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+HUMAN won. BT A-B F1 8 DQd
