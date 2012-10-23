@@ -5,7 +5,7 @@ This is the AlphaBeta player of the classic game Breakthrough
 
 The code created by members of this team is located in the AlphaBetaBreakthrough.java file. 
 
-Collaborators of this project:
+Collaborators of this project:<BR><BR>
 Eliot Fowler
 Patrick Delaney
 Matthew Odgers
