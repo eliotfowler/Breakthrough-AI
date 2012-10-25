@@ -1,0 +1,218 @@
+Gentleman (W) played 1 5 2 6
+BBBBBBB
+BBBBBBB
+.......
+.......
+......W
+WWWWW.W
+WWWWWWW
+[AWAY 1 GAME_ON]
+Greedy BT+ (B) played 5 5 4 4
+BBBBBBB
+BBBBB.B
+....B..
+.......
+......W
+WWWWW.W
+WWWWWWW
+[HOME 2 GAME_ON]
+Gentleman (W) played 2 6 3 6
+BBBBBBB
+BBBBB.B
+....B..
+......W
+.......
+WWWWW.W
+WWWWWWW
+[AWAY 3 GAME_ON]
+Greedy BT+ (B) played 5 2 4 2
+BBBBBBB
+BB.BB.B
+..B.B..
+......W
+.......
+WWWWW.W
+WWWWWWW
+[HOME 4 GAME_ON]
+Gentleman (W) played 1 6 2 5
+BBBBBBB
+BB.BB.B
+..B.B..
+......W
+.....W.
+WWWWW..
+WWWWWWW
+[AWAY 5 GAME_ON]
+Greedy BT+ (B) played 6 4 5 5
+BBBB.BB
+BB.BBBB
+..B.B..
+......W
+.....W.
+WWWWW..
+WWWWWWW
+[HOME 6 GAME_ON]
+Gentleman (W) played 2 5 3 4
+BBBB.BB
+BB.BBBB
+..B.B..
+....W.W
+.......
+WWWWW..
+WWWWWWW
+[AWAY 7 GAME_ON]
+Greedy BT+ (B) played 5 5 4 5
+BBBB.BB
+BB.BB.B
+..B.BB.
+....W.W
+.......
+WWWWW..
+WWWWWWW
+[HOME 8 GAME_ON]
+Gentleman (W) played 1 4 2 5
+BBBB.BB
+BB.BB.B
+..B.BB.
+....W.W
+.....W.
+WWWW...
+WWWWWWW
+[AWAY 9 GAME_ON]
+Greedy BT+ (B) played 4 5 3 4
+BBBB.BB
+BB.BB.B
+..B.B..
+....B.W
+.....W.
+WWWW...
+WWWWWWW
+[HOME 10 GAME_ON]
+Gentleman (W) played 3 6 4 5
+BBBB.BB
+BB.BB.B
+..B.BW.
+....B..
+.....W.
+WWWW...
+WWWWWWW
+[AWAY 11 GAME_ON]
+Greedy BT+ (B) played 5 4 4 5
+BBBB.BB
+BB.B..B
+..B.BB.
+....B..
+.....W.
+WWWW...
+WWWWWWW
+[HOME 12 GAME_ON]
+Gentleman (W) played 1 3 2 4
+BBBB.BB
+BB.B..B
+..B.BB.
+....B..
+....WW.
+WWW....
+WWWWWWW
+[AWAY 13 GAME_ON]
+Greedy BT+ (B) played 3 4 2 5
+BBBB.BB
+BB.B..B
+..B.BB.
+.......
+....WB.
+WWW....
+WWWWWWW
+[HOME 14 GAME_ON]
+Gentleman (W) played 1 2 2 1
+BBBB.BB
+BB.B..B
+..B.BB.
+.......
+.W..WB.
+WW.....
+WWWWWWW
+[AWAY 15 GAME_ON]
+Greedy BT+ (B) played 6 3 5 4
+BBB..BB
+BB.BB.B
+..B.BB.
+.......
+.W..WB.
+WW.....
+WWWWWWW
+[HOME 16 GAME_ON]
+Gentleman (W) played 0 1 1 2
+BBB..BB
+BB.BB.B
+..B.BB.
+.......
+.W..WB.
+WWW....
+W.WWWWW
+[AWAY 17 GAME_ON]
+Greedy BT+ (B) played 2 5 1 5
+BBB..BB
+BB.BB.B
+..B.BB.
+.......
+.W..W..
+WWW..B.
+W.WWWWW
+[HOME 18 GAME_ON]
+Gentleman (W) played 2 4 3 5
+BBB..BB
+BB.BB.B
+..B.BB.
+.....W.
+.W.....
+WWW..B.
+W.WWWWW
+[AWAY 19 GAME_ON]
+Greedy BT+ (B) played 4 4 3 5
+BBB..BB
+BB.BB.B
+..B..B.
+.....B.
+.W.....
+WWW..B.
+W.WWWWW
+[HOME 20 GAME_ON]
+Gentleman (W) played 2 1 3 1
+BBB..BB
+BB.BB.B
+..B..B.
+.W...B.
+.......
+WWW..B.
+W.WWWWW
+[AWAY 21 GAME_ON]
+Greedy BT+ (B) played 4 2 3 1
+BBB..BB
+BB.BB.B
+.....B.
+.B...B.
+.......
+WWW..B.
+W.WWWWW
+[HOME 22 GAME_ON]
+Gentleman (W) played 1 2 2 2
+BBB..BB
+BB.BB.B
+.....B.
+.B...B.
+..W....
+WW...B.
+W.WWWWW
+[AWAY 23 GAME_ON]
+Greedy BT+ (B) played 1 5 0 6
+BBB..BB
+BB.BB.B
+.....B.
+.B...B.
+..W....
+WW.....
+W.WWWWB
+[HOME 24 AWAY_WIN]
+Greedy BT+ (B) (419.994000 seconds remaining) won.
+Gentleman had 359.608000 seconds remaining.

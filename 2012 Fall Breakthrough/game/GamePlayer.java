@@ -169,6 +169,7 @@ public abstract class GamePlayer {
 		}
 		catch (Exception e) {
 			System.err.println("Problem in " + nickname + " " + e);
+			e.printStackTrace();
 			System.err.flush();
 		}
 	}

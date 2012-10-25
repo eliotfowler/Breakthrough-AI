@@ -1,0 +1,218 @@
+Gentleman 8 (W) played 1 0 2 1
+BBBBBBB
+BBBBBBB
+.......
+.......
+.W.....
+.WWWWWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+HUMAN (B) played 5 2 4 2
+BBBBBBB
+BB.BBBB
+..B....
+.......
+.W.....
+.WWWWWW
+WWWWWWW
+[HOME 2 GAME_ON]
+Gentleman 8 (W) played 0 1 1 0
+BBBBBBB
+BB.BBBB
+..B....
+.......
+.W.....
+WWWWWWW
+W.WWWWW
+[AWAY 3 GAME_ON]
+HUMAN (B) played 5 0 4 0
+BBBBBBB
+.B.BBBB
+B.B....
+.......
+.W.....
+WWWWWWW
+W.WWWWW
+[HOME 4 GAME_ON]
+Gentleman 8 (W) played 1 2 2 3
+BBBBBBB
+.B.BBBB
+B.B....
+.......
+.W.W...
+WW.WWWW
+W.WWWWW
+[AWAY 5 GAME_ON]
+HUMAN (B) played 5 4 4 4
+BBBBBBB
+.B.B.BB
+B.B.B..
+.......
+.W.W...
+WW.WWWW
+W.WWWWW
+[HOME 6 GAME_ON]
+Gentleman 8 (W) played 0 3 1 2
+BBBBBBB
+.B.B.BB
+B.B.B..
+.......
+.W.W...
+WWWWWWW
+W.W.WWW
+[AWAY 7 GAME_ON]
+HUMAN (B) played 4 4 3 3
+BBBBBBB
+.B.B.BB
+B.B....
+...B...
+.W.W...
+WWWWWWW
+W.W.WWW
+[HOME 8 GAME_ON]
+Gentleman 8 (W) played 2 1 3 0
+BBBBBBB
+.B.B.BB
+B.B....
+W..B...
+...W...
+WWWWWWW
+W.W.WWW
+[AWAY 9 GAME_ON]
+HUMAN (B) played 4 2 3 1
+BBBBBBB
+.B.B.BB
+B......
+WB.B...
+...W...
+WWWWWWW
+W.W.WWW
+[HOME 10 GAME_ON]
+Gentleman 8 (W) played 1 0 2 1
+BBBBBBB
+.B.B.BB
+B......
+WB.B...
+.W.W...
+.WWWWWW
+W.W.WWW
+[AWAY 11 GAME_ON]
+HUMAN (B) played 5 5 4 5
+BBBBBBB
+.B.B..B
+B....B.
+WB.B...
+.W.W...
+.WWWWWW
+W.W.WWW
+[HOME 12 GAME_ON]
+Gentleman 8 (W) played 1 4 2 4
+BBBBBBB
+.B.B..B
+B....B.
+WB.B...
+.W.WW..
+.WWW.WW
+W.W.WWW
+[AWAY 13 GAME_ON]
+HUMAN (B) played 3 3 2 4
+BBBBBBB
+.B.B..B
+B....B.
+WB.....
+.W.WB..
+.WWW.WW
+W.W.WWW
+[HOME 14 GAME_ON]
+Gentleman 8 (W) played 0 4 1 4
+BBBBBBB
+.B.B..B
+B....B.
+WB.....
+.W.WB..
+.WWWWWW
+W.W..WW
+[AWAY 15 GAME_ON]
+HUMAN (B) played 2 4 1 3
+BBBBBBB
+.B.B..B
+B....B.
+WB.....
+.W.W...
+.WWBWWW
+W.W..WW
+[HOME 16 GAME_ON]
+Gentleman 8 (W) played 0 2 1 3
+BBBBBBB
+.B.B..B
+B....B.
+WB.....
+.W.W...
+.WWWWWW
+W....WW
+[AWAY 17 GAME_ON]
+HUMAN (B) played 5 3 4 3
+BBBBBBB
+.B....B
+B..B.B.
+WB.....
+.W.W...
+.WWWWWW
+W....WW
+[HOME 18 GAME_ON]
+Gentleman 8 (W) played 1 1 2 0
+BBBBBBB
+.B....B
+B..B.B.
+WB.....
+WW.W...
+..WWWWW
+W....WW
+[AWAY 19 GAME_ON]
+HUMAN (B) played 3 1 2 0
+BBBBBBB
+.B....B
+B..B.B.
+W......
+BW.W...
+..WWWWW
+W....WW
+[HOME 20 GAME_ON]
+Gentleman 8 (W) played 0 0 1 1
+BBBBBBB
+.B....B
+B..B.B.
+W......
+BW.W...
+.WWWWWW
+.....WW
+[AWAY 21 GAME_ON]
+HUMAN (B) played 2 0 1 0
+BBBBBBB
+.B....B
+B..B.B.
+W......
+.W.W...
+BWWWWWW
+.....WW
+[HOME 22 GAME_ON]
+Gentleman 8 (W) played 1 1 2 0
+BBBBBBB
+.B....B
+B..B.B.
+W......
+WW.W...
+B.WWWWW
+.....WW
+[AWAY 23 GAME_ON]
+HUMAN (B) played 1 0 0 0
+BBBBBBB
+.B....B
+B..B.B.
+W......
+WW.W...
+..WWWWW
+B....WW
+[HOME 24 AWAY_WIN]
+HUMAN (B) (213.469000 seconds remaining) won.
+Gentleman 8 had 258.585000 seconds remaining.

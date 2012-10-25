@@ -1,0 +1,73 @@
+Gentleman (W) played 1 0 2 0
+BBBBBBB
+BBBBBBB
+.......
+.......
+W......
+.WWWWWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+Greedy BT+ (B) played 5 3 4 3
+BBBBBBB
+BBB.BBB
+...B...
+.......
+W......
+.WWWWWW
+WWWWWWW
+[HOME 2 GAME_ON]
+Gentleman (W) played 0 0 1 0
+BBBBBBB
+BBB.BBB
+...B...
+.......
+W......
+WWWWWWW
+.WWWWWW
+[AWAY 3 GAME_ON]
+Greedy BT+ (B) played 5 4 4 4
+BBBBBBB
+BBB..BB
+...BB..
+.......
+W......
+WWWWWWW
+.WWWWWW
+[HOME 4 GAME_ON]
+Gentleman (W) played 1 0 2 1
+BBBBBBB
+BBB..BB
+...BB..
+.......
+WW.....
+.WWWWWW
+.WWWWWW
+[AWAY 5 GAME_ON]
+Greedy BT+ (B) played 5 6 4 6
+BBBBBBB
+BBB..B.
+...BB.B
+.......
+WW.....
+.WWWWWW
+.WWWWWW
+[HOME 6 GAME_ON]
+Gentleman (W) played 0 1 1 0
+BBBBBBB
+BBB..B.
+...BB.B
+.......
+WW.....
+WWWWWWW
+..WWWWW
+[AWAY 7 GAME_ON]
+Greedy BT+ (B) played 4 4 3 5
+BBBBBBB
+BBB..B.
+...B..B
+.....B.
+WW.....
+WWWWWWW
+..WWWWW
+[HOME 8 GAME_ON]
+Greedy BT+ won. Gentleman DQd

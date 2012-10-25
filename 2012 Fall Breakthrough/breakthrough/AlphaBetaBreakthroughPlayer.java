@@ -2,6 +2,7 @@ package breakthrough;
 import java.util.ArrayList;
 
 import game.*;
+import game.GameState.Who;
 
 
 // AlphaBetaBreakthroughPlayer is identical to MiniMaxBreakthroughPlayer
@@ -14,9 +15,20 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 	
 	
 	protected ScoredBreakthroughMove [] mvStack;
+	/**
+	 * Initializes the stack of Moves.
+	 */
+	public void init()
+	{
+		mvStack = new ScoredBreakthroughMove [MAX_DEPTH];
+		for (int i=0; i<MAX_DEPTH; i++) {
+			mvStack[i] = new ScoredBreakthroughMove(0, 0, 0, 0, 0);
+		}
+	}
 	
 	protected class ScoredBreakthroughMove extends BreakthroughMove {
 		int row;
+		public double score;
 		public ScoredBreakthroughMove(int srow, int scol, int erow, int ecol, double s)
 		{
 			super();
@@ -34,7 +46,6 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 			endingCol = ecol;
 			score = s;
 		}
-		public double score;
 	}
 	
 	public AlphaBetaBreakthroughPlayer(String nname, int d)
@@ -67,7 +78,18 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 	}
 	//Evaluation Function
 	private static int evalBoard(BreakthroughState brd){
-		return Integer.MAX_VALUE+1;
+		
+		int num_home = 0;
+		int num_away = 0;
+		for(int i=0; i<BreakthroughState.N; i++) {
+			for(int j=0; j<BreakthroughState.N; j++) {
+				if(brd.board[i][j] == BreakthroughState.homeSym)
+					num_home++;
+				else if(brd.board[i][j] == BreakthroughState.awaySym)
+					num_away++;
+			}
+		}
+		return num_home - num_away;
 	}
 	/**
 	 * Performs alpha beta pruning.
@@ -87,11 +109,12 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		if(currDepth == depthLimit){
 			mvStack[currDepth].set(0,0,0,0,evalBoard(brd));
 		}else if (!isTerminal){
-			ScoredBreakthroughMove tempMv = new ScoredBreakthroughMove(0,0,0,0, Double.MAX_VALUE);
+			//ScoredBreakthroughMove tempMv = new ScoredBreakthroughMove(0,0,0,0, Double.MAX_VALUE);
 			double bestScore = (toMaximize ? 
 					Double.NEGATIVE_INFINITY : Double.POSITIVE_INFINITY);
 			ScoredBreakthroughMove bestMove = mvStack[currDepth];
 			ScoredBreakthroughMove nextMove = mvStack[currDepth+1];
+			
 			bestMove.set(0,0,0,0, bestScore);
 			GameState.Who currTurn = brd.getWho();
 			
@@ -122,21 +145,25 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 			
 			for(int i=0; i<moves.size(); i++) {
 				BreakthroughMove tmp = moves.get(i);
+				char tmpchar = brd.board[tmp.endingRow][tmp.endingCol];
 				brd.makeMove(tmp);
 				
 				alphaBeta(brd, currDepth+1, alpha, beta);
 				
 				//Undo Move
-				BreakthroughMove undoMove = (BreakthroughMove)tmp.clone();
-				undoMove.startCol = tmp.endingCol;
-				undoMove.endingCol = tmp.startCol;
-				undoMove.startRow = tmp.endingRow;
-				undoMove.endingRow = tmp.startRow;
-				
-				brd.makeMove(undoMove);
-				brd.numMoves -= 2;
-				brd.status = GameState.Status.GAME_ON;
+				/* What I will do instead to undo the move is set the board at the 
+				 * temp's end row/end col that there is nothing there and at the
+				 * temp's start row/col that there is a home or away piece, depending
+				 * and then subtract 1 from the number of moves				
+				 */
 				brd.who = currTurn;
+				char PLAYER = brd.who == GameState.Who.HOME ? BreakthroughState.homeSym : BreakthroughState.awaySym;
+				
+				brd.board[tmp.endingRow][tmp.endingCol] = tmpchar;
+				brd.board[tmp.startRow][tmp.startCol] = PLAYER;
+				brd.numMoves--;
+				brd.status = GameState.Status.GAME_ON;
+				
 				
 				// Check out the results, relative to what we've seen before
 				if (toMaximize && nextMove.score > bestMove.score) {
@@ -180,7 +207,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 	public static void main(String [] args)
 	{
 		int depth = 8;
-		GamePlayer p = new AlphaBetaBreakthroughPlayer("BT A-B F1 " + depth, depth);
+		GamePlayer p = new AlphaBetaBreakthroughPlayer("Gentleman", depth);
 		p.compete(args);
 	}
 }

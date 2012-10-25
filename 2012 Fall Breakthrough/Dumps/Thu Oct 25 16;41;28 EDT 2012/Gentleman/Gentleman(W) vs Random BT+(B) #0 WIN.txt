@@ -1,0 +1,119 @@
+Gentleman (W) played 1 5 2 6
+BBBBBBB
+BBBBBBB
+.......
+.......
+......W
+WWWWW.W
+WWWWWWW
+[AWAY 1 GAME_ON]
+Random BT+ (B) played 5 3 4 3
+BBBBBBB
+BBB.BBB
+...B...
+.......
+......W
+WWWWW.W
+WWWWWWW
+[HOME 2 GAME_ON]
+Gentleman (W) played 1 3 2 4
+BBBBBBB
+BBB.BBB
+...B...
+.......
+....W.W
+WWW.W.W
+WWWWWWW
+[AWAY 3 GAME_ON]
+Random BT+ (B) played 5 1 4 2
+BBBBBBB
+B.B.BBB
+..BB...
+.......
+....W.W
+WWW.W.W
+WWWWWWW
+[HOME 4 GAME_ON]
+Gentleman (W) played 2 4 3 4
+BBBBBBB
+B.B.BBB
+..BB...
+....W..
+......W
+WWW.W.W
+WWWWWWW
+[AWAY 5 GAME_ON]
+Random BT+ (B) played 4 3 3 2
+BBBBBBB
+B.B.BBB
+..B....
+..B.W..
+......W
+WWW.W.W
+WWWWWWW
+[HOME 6 GAME_ON]
+Gentleman (W) played 2 6 3 6
+BBBBBBB
+B.B.BBB
+..B....
+..B.W.W
+.......
+WWW.W.W
+WWWWWWW
+[AWAY 7 GAME_ON]
+Random BT+ (B) played 5 0 4 1
+BBBBBBB
+..B.BBB
+.BB....
+..B.W.W
+.......
+WWW.W.W
+WWWWWWW
+[HOME 8 GAME_ON]
+Gentleman (W) played 3 6 4 6
+BBBBBBB
+..B.BBB
+.BB...W
+..B.W..
+.......
+WWW.W.W
+WWWWWWW
+[AWAY 9 GAME_ON]
+Random BT+ (B) played 4 2 3 3
+BBBBBBB
+..B.BBB
+.B....W
+..BBW..
+.......
+WWW.W.W
+WWWWWWW
+[HOME 10 GAME_ON]
+Gentleman (W) played 4 6 5 5
+BBBBBBB
+..B.BWB
+.B.....
+..BBW..
+.......
+WWW.W.W
+WWWWWWW
+[AWAY 11 GAME_ON]
+Random BT+ (B) played 6 4 5 3
+BBBB.BB
+..BBBWB
+.B.....
+..BBW..
+.......
+WWW.W.W
+WWWWWWW
+[HOME 12 GAME_ON]
+Gentleman (W) played 5 5 6 4
+BBBBWBB
+..BBB.B
+.B.....
+..BBW..
+.......
+WWW.W.W
+WWWWWWW
+[AWAY 13 HOME_WIN]
+Gentleman (W) (368.442000 seconds remaining) won.
+Random BT+ had 419.996000 seconds remaining.
