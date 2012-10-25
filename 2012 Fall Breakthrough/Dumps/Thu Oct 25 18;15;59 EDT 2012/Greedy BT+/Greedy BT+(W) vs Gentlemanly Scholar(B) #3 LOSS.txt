@@ -1,0 +1,326 @@
+Greedy BT+ (W) played 1 6 2 6
+BBBBBBB
+BBBBBBB
+.......
+.......
+......W
+WWWWWW.
+WWWWWWW
+[AWAY 1 GAME_ON]
+Gentlemanly Scholar (B) played 5 0 4 0
+BBBBBBB
+.BBBBBB
+B......
+.......
+......W
+WWWWWW.
+WWWWWWW
+[HOME 2 GAME_ON]
+Greedy BT+ (W) played 1 1 2 1
+BBBBBBB
+.BBBBBB
+B......
+.......
+.W....W
+W.WWWW.
+WWWWWWW
+[AWAY 3 GAME_ON]
+Gentlemanly Scholar (B) played 5 1 4 1
+BBBBBBB
+..BBBBB
+BB.....
+.......
+.W....W
+W.WWWW.
+WWWWWWW
+[HOME 4 GAME_ON]
+Greedy BT+ (W) played 2 1 3 1
+BBBBBBB
+..BBBBB
+BB.....
+.W.....
+......W
+W.WWWW.
+WWWWWWW
+[AWAY 5 GAME_ON]
+Gentlemanly Scholar (B) played 4 0 3 1
+BBBBBBB
+..BBBBB
+.B.....
+.B.....
+......W
+W.WWWW.
+WWWWWWW
+[HOME 6 GAME_ON]
+Greedy BT+ (W) played 1 2 2 3
+BBBBBBB
+..BBBBB
+.B.....
+.B.....
+...W..W
+W..WWW.
+WWWWWWW
+[AWAY 7 GAME_ON]
+Gentlemanly Scholar (B) played 5 2 4 2
+BBBBBBB
+...BBBB
+.BB....
+.B.....
+...W..W
+W..WWW.
+WWWWWWW
+[HOME 8 GAME_ON]
+Greedy BT+ (W) played 1 5 2 4
+BBBBBBB
+...BBBB
+.BB....
+.B.....
+...WW.W
+W..WW..
+WWWWWWW
+[AWAY 9 GAME_ON]
+Gentlemanly Scholar (B) played 3 1 2 0
+BBBBBBB
+...BBBB
+.BB....
+.......
+B..WW.W
+W..WW..
+WWWWWWW
+[HOME 10 GAME_ON]
+Greedy BT+ (W) played 0 1 1 1
+BBBBBBB
+...BBBB
+.BB....
+.......
+B..WW.W
+WW.WW..
+W.WWWWW
+[AWAY 11 GAME_ON]
+Gentlemanly Scholar (B) played 2 0 1 1
+BBBBBBB
+...BBBB
+.BB....
+.......
+...WW.W
+WB.WW..
+W.WWWWW
+[HOME 12 GAME_ON]
+Greedy BT+ (W) played 0 2 1 1
+BBBBBBB
+...BBBB
+.BB....
+.......
+...WW.W
+WW.WW..
+W..WWWW
+[AWAY 13 GAME_ON]
+Gentlemanly Scholar (B) played 4 2 3 2
+BBBBBBB
+...BBBB
+.B.....
+..B....
+...WW.W
+WW.WW..
+W..WWWW
+[HOME 14 GAME_ON]
+Greedy BT+ (W) played 2 3 3 2
+BBBBBBB
+...BBBB
+.B.....
+..W....
+....W.W
+WW.WW..
+W..WWWW
+[AWAY 15 GAME_ON]
+Gentlemanly Scholar (B) played 4 1 3 2
+BBBBBBB
+...BBBB
+.......
+..B....
+....W.W
+WW.WW..
+W..WWWW
+[HOME 16 GAME_ON]
+Greedy BT+ (W) played 2 4 3 5
+BBBBBBB
+...BBBB
+.......
+..B..W.
+......W
+WW.WW..
+W..WWWW
+[AWAY 17 GAME_ON]
+Gentlemanly Scholar (B) played 5 3 4 3
+BBBBBBB
+....BBB
+...B...
+..B..W.
+......W
+WW.WW..
+W..WWWW
+[HOME 18 GAME_ON]
+Greedy BT+ (W) played 1 1 2 2
+BBBBBBB
+....BBB
+...B...
+..B..W.
+..W...W
+W..WW..
+W..WWWW
+[AWAY 19 GAME_ON]
+Gentlemanly Scholar (B) played 4 3 3 4
+BBBBBBB
+....BBB
+.......
+..B.BW.
+..W...W
+W..WW..
+W..WWWW
+[HOME 20 GAME_ON]
+Greedy BT+ (W) played 1 3 2 4
+BBBBBBB
+....BBB
+.......
+..B.BW.
+..W.W.W
+W...W..
+W..WWWW
+[AWAY 21 GAME_ON]
+Gentlemanly Scholar (B) played 3 2 2 3
+BBBBBBB
+....BBB
+.......
+....BW.
+..WBW.W
+W...W..
+W..WWWW
+[HOME 22 GAME_ON]
+Greedy BT+ (W) played 1 4 2 3
+BBBBBBB
+....BBB
+.......
+....BW.
+..WWW.W
+W......
+W..WWWW
+[AWAY 23 GAME_ON]
+Gentlemanly Scholar (B) played 3 4 2 3
+BBBBBBB
+....BBB
+.......
+.....W.
+..WBW.W
+W......
+W..WWWW
+[HOME 24 GAME_ON]
+Greedy BT+ (W) played 1 0 2 1
+BBBBBBB
+....BBB
+.......
+.....W.
+.WWBW.W
+.......
+W..WWWW
+[AWAY 25 GAME_ON]
+Gentlemanly Scholar (B) played 5 4 4 4
+BBBBBBB
+.....BB
+....B..
+.....W.
+.WWBW.W
+.......
+W..WWWW
+[HOME 26 GAME_ON]
+Greedy BT+ (W) played 3 5 4 4
+BBBBBBB
+.....BB
+....W..
+.......
+.WWBW.W
+.......
+W..WWWW
+[AWAY 27 GAME_ON]
+Gentlemanly Scholar (B) played 5 5 4 4
+BBBBBBB
+......B
+....B..
+.......
+.WWBW.W
+.......
+W..WWWW
+[HOME 28 GAME_ON]
+Greedy BT+ (W) played 2 6 3 5
+BBBBBBB
+......B
+....B..
+.....W.
+.WWBW..
+.......
+W..WWWW
+[AWAY 29 GAME_ON]
+Gentlemanly Scholar (B) played 4 4 3 5
+BBBBBBB
+......B
+.......
+.....B.
+.WWBW..
+.......
+W..WWWW
+[HOME 30 GAME_ON]
+Greedy BT+ (W) played 2 4 3 5
+BBBBBBB
+......B
+.......
+.....W.
+.WWB...
+.......
+W..WWWW
+[AWAY 31 GAME_ON]
+Gentlemanly Scholar (B) played 6 2 5 3
+BB.BBBB
+...B..B
+.......
+.....W.
+.WWB...
+.......
+W..WWWW
+[HOME 32 GAME_ON]
+Greedy BT+ (W) played 0 3 1 4
+BB.BBBB
+...B..B
+.......
+.....W.
+.WWB...
+....W..
+W...WWW
+[AWAY 33 GAME_ON]
+Gentlemanly Scholar (B) played 2 3 1 2
+BB.BBBB
+...B..B
+.......
+.....W.
+.WW....
+..B.W..
+W...WWW
+[HOME 34 GAME_ON]
+Greedy BT+ (W) played 2 1 3 2
+BB.BBBB
+...B..B
+.......
+..W..W.
+..W....
+..B.W..
+W...WWW
+[AWAY 35 GAME_ON]
+Gentlemanly Scholar (B) played 1 2 0 2
+BB.BBBB
+...B..B
+.......
+..W..W.
+..W....
+....W..
+W.B.WWW
+[HOME 36 AWAY_WIN]
+Gentlemanly Scholar (B) (394.019000 seconds remaining) won.
+Greedy BT+ had 419.983000 seconds remaining.

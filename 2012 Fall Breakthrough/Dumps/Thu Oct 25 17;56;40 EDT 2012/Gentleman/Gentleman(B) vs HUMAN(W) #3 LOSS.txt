@@ -1,0 +1,190 @@
+HUMAN (W) played 1 3 2 3
+BBBBBBB
+BBBBBBB
+.......
+.......
+...W...
+WWW.WWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+Gentleman (B) played 5 0 4 0
+BBBBBBB
+.BBBBBB
+B......
+.......
+...W...
+WWW.WWW
+WWWWWWW
+[HOME 2 GAME_ON]
+HUMAN (W) played 1 1 2 1
+BBBBBBB
+.BBBBBB
+B......
+.......
+.W.W...
+W.W.WWW
+WWWWWWW
+[AWAY 3 GAME_ON]
+Gentleman (B) played 4 0 3 1
+BBBBBBB
+.BBBBBB
+.......
+.B.....
+.W.W...
+W.W.WWW
+WWWWWWW
+[HOME 4 GAME_ON]
+HUMAN (W) played 1 4 2 5
+BBBBBBB
+.BBBBBB
+.......
+.B.....
+.W.W.W.
+W.W..WW
+WWWWWWW
+[AWAY 5 GAME_ON]
+Gentleman (B) played 3 1 2 2
+BBBBBBB
+.BBBBBB
+.......
+.......
+.WBW.W.
+W.W..WW
+WWWWWWW
+[HOME 6 GAME_ON]
+HUMAN (W) played 0 3 1 3
+BBBBBBB
+.BBBBBB
+.......
+.......
+.WBW.W.
+W.WW.WW
+WWW.WWW
+[AWAY 7 GAME_ON]
+Gentleman (B) played 2 2 1 3
+BBBBBBB
+.BBBBBB
+.......
+.......
+.W.W.W.
+W.WB.WW
+WWW.WWW
+[HOME 8 GAME_ON]
+HUMAN (W) played 0 2 1 3
+BBBBBBB
+.BBBBBB
+.......
+.......
+.W.W.W.
+W.WW.WW
+WW..WWW
+[AWAY 9 GAME_ON]
+Gentleman (B) played 5 1 4 1
+BBBBBBB
+..BBBBB
+.B.....
+.......
+.W.W.W.
+W.WW.WW
+WW..WWW
+[HOME 10 GAME_ON]
+HUMAN (W) played 2 3 3 3
+BBBBBBB
+..BBBBB
+.B.....
+...W...
+.W...W.
+W.WW.WW
+WW..WWW
+[AWAY 11 GAME_ON]
+Gentleman (B) played 4 1 3 1
+BBBBBBB
+..BBBBB
+.......
+.B.W...
+.W...W.
+W.WW.WW
+WW..WWW
+[HOME 12 GAME_ON]
+HUMAN (W) played 2 1 3 0
+BBBBBBB
+..BBBBB
+.......
+WB.W...
+.....W.
+W.WW.WW
+WW..WWW
+[AWAY 13 GAME_ON]
+Gentleman (B) played 3 1 2 0
+BBBBBBB
+..BBBBB
+.......
+W..W...
+B....W.
+W.WW.WW
+WW..WWW
+[HOME 14 GAME_ON]
+HUMAN (W) played 3 0 4 0
+BBBBBBB
+..BBBBB
+W......
+...W...
+B....W.
+W.WW.WW
+WW..WWW
+[AWAY 15 GAME_ON]
+Gentleman (B) played 5 2 4 3
+BBBBBBB
+...BBBB
+W..B...
+...W...
+B....W.
+W.WW.WW
+WW..WWW
+[HOME 16 GAME_ON]
+HUMAN (W) played 1 2 2 1
+BBBBBBB
+...BBBB
+W..B...
+...W...
+BW...W.
+W..W.WW
+WW..WWW
+[AWAY 17 GAME_ON]
+Gentleman (B) played 5 4 4 5
+BBBBBBB
+...B.BB
+W..B.B.
+...W...
+BW...W.
+W..W.WW
+WW..WWW
+[HOME 18 GAME_ON]
+HUMAN (W) played 2 1 3 1
+BBBBBBB
+...B.BB
+W..B.B.
+.W.W...
+B....W.
+W..W.WW
+WW..WWW
+[AWAY 19 GAME_ON]
+Gentleman (B) played 4 3 3 2
+BBBBBBB
+...B.BB
+W....B.
+.WBW...
+B....W.
+W..W.WW
+WW..WWW
+[HOME 20 GAME_ON]
+HUMAN (W) played 3 1 4 1
+BBBBBBB
+...B.BB
+WW...B.
+..BW...
+B....W.
+W..W.WW
+WW..WWW
+[AWAY 21 GAME_ON]
+HUMAN won. Gentleman DQd

@@ -5,10 +5,10 @@ import game.*;
 import game.GameState.Who;
 
 
-// AlphaBetaBreakthroughPlayer is identical to MiniMaxBreakthroughPlayer
+// ABBreakthroughPlayer2 is identical to MiniMaxBreakthroughPlayer
 // except for the search process, which uses alpha beta pruning.
 
-public class AlphaBetaBreakthroughPlayer extends GamePlayer {
+public class ABBreakthroughPlayer2 extends GamePlayer {
 	public final int MAX_DEPTH = 50;
 	public final int MAX_SCORE = Integer.MAX_VALUE;
 	public int depthLimit;
@@ -48,7 +48,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		}
 	}
 	
-	public AlphaBetaBreakthroughPlayer(String nname, int d)
+	public ABBreakthroughPlayer2(String nname, int d)
 	{ 
 		super(nname, new BreakthroughState(), true);
 		depthLimit = d;
@@ -144,7 +144,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 	private static int evalBoard(BreakthroughState brd){
 		int h1 = eval_numpieces(brd);
 		int h3 = eval_coverage(brd);
-		return h3;
+		return h1;
 	}
 	/**
 	 * Performs alpha beta pruning.
@@ -262,7 +262,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 	public static void main(String [] args)
 	{
 		int depth = 6;
-		GamePlayer p = new AlphaBetaBreakthroughPlayer("Gentlemanly Scholar", depth);
+		GamePlayer p = new ABBreakthroughPlayer2("Oldie", depth);
 		p.compete(args);
 	}
 }

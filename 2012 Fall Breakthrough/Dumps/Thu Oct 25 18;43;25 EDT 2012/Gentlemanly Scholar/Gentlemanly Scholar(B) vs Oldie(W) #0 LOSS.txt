@@ -1,0 +1,389 @@
+Oldie (W) played 1 0 2 0
+BBBBBBB
+BBBBBBB
+.......
+.......
+W......
+.WWWWWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+Gentlemanly Scholar (B) played 5 0 4 0
+BBBBBBB
+.BBBBBB
+B......
+.......
+W......
+.WWWWWW
+WWWWWWW
+[HOME 2 GAME_ON]
+Oldie (W) played 0 0 1 0
+BBBBBBB
+.BBBBBB
+B......
+.......
+W......
+WWWWWWW
+.WWWWWW
+[AWAY 3 GAME_ON]
+Gentlemanly Scholar (B) played 5 1 4 1
+BBBBBBB
+..BBBBB
+BB.....
+.......
+W......
+WWWWWWW
+.WWWWWW
+[HOME 4 GAME_ON]
+Oldie (W) played 1 0 2 1
+BBBBBBB
+..BBBBB
+BB.....
+.......
+WW.....
+.WWWWWW
+.WWWWWW
+[AWAY 5 GAME_ON]
+Gentlemanly Scholar (B) played 5 2 4 3
+BBBBBBB
+...BBBB
+BB.B...
+.......
+WW.....
+.WWWWWW
+.WWWWWW
+[HOME 6 GAME_ON]
+Oldie (W) played 0 1 1 0
+BBBBBBB
+...BBBB
+BB.B...
+.......
+WW.....
+WWWWWWW
+..WWWWW
+[AWAY 7 GAME_ON]
+Gentlemanly Scholar (B) played 5 6 4 6
+BBBBBBB
+...BBB.
+BB.B..B
+.......
+WW.....
+WWWWWWW
+..WWWWW
+[HOME 8 GAME_ON]
+Oldie (W) played 1 1 2 2
+BBBBBBB
+...BBB.
+BB.B..B
+.......
+WWW....
+W.WWWWW
+..WWWWW
+[AWAY 9 GAME_ON]
+Gentlemanly Scholar (B) played 6 0 5 0
+.BBBBBB
+B..BBB.
+BB.B..B
+.......
+WWW....
+W.WWWWW
+..WWWWW
+[HOME 10 GAME_ON]
+Oldie (W) played 0 2 1 1
+.BBBBBB
+B..BBB.
+BB.B..B
+.......
+WWW....
+WWWWWWW
+...WWWW
+[AWAY 11 GAME_ON]
+Gentlemanly Scholar (B) played 5 3 4 4
+.BBBBBB
+B...BB.
+BB.BB.B
+.......
+WWW....
+WWWWWWW
+...WWWW
+[HOME 12 GAME_ON]
+Oldie (W) played 1 2 2 3
+.BBBBBB
+B...BB.
+BB.BB.B
+.......
+WWWW...
+WW.WWWW
+...WWWW
+[AWAY 13 GAME_ON]
+Gentlemanly Scholar (B) played 6 3 5 3
+.BB.BBB
+B..BBB.
+BB.BB.B
+.......
+WWWW...
+WW.WWWW
+...WWWW
+[HOME 14 GAME_ON]
+Oldie (W) played 0 3 1 2
+.BB.BBB
+B..BBB.
+BB.BB.B
+.......
+WWWW...
+WWWWWWW
+....WWW
+[AWAY 15 GAME_ON]
+Gentlemanly Scholar (B) played 4 4 3 5
+.BB.BBB
+B..BBB.
+BB.B..B
+.....B.
+WWWW...
+WWWWWWW
+....WWW
+[HOME 16 GAME_ON]
+Oldie (W) played 1 3 2 4
+.BB.BBB
+B..BBB.
+BB.B..B
+.....B.
+WWWWW..
+WWW.WWW
+....WWW
+[AWAY 17 GAME_ON]
+Gentlemanly Scholar (B) played 3 5 2 4
+.BB.BBB
+B..BBB.
+BB.B..B
+.......
+WWWWB..
+WWW.WWW
+....WWW
+[HOME 18 GAME_ON]
+Oldie (W) played 1 5 2 4
+.BB.BBB
+B..BBB.
+BB.B..B
+.......
+WWWWW..
+WWW.W.W
+....WWW
+[AWAY 19 GAME_ON]
+Gentlemanly Scholar (B) played 4 1 3 1
+.BB.BBB
+B..BBB.
+B..B..B
+.B.....
+WWWWW..
+WWW.W.W
+....WWW
+[HOME 20 GAME_ON]
+Oldie (W) played 2 0 3 1
+.BB.BBB
+B..BBB.
+B..B..B
+.W.....
+.WWWW..
+WWW.W.W
+....WWW
+[AWAY 21 GAME_ON]
+Gentlemanly Scholar (B) played 4 0 3 1
+.BB.BBB
+B..BBB.
+...B..B
+.B.....
+.WWWW..
+WWW.W.W
+....WWW
+[HOME 22 GAME_ON]
+Oldie (W) played 2 2 3 1
+.BB.BBB
+B..BBB.
+...B..B
+.W.....
+.W.WW..
+WWW.W.W
+....WWW
+[AWAY 23 GAME_ON]
+Gentlemanly Scholar (B) played 4 3 3 4
+.BB.BBB
+B..BBB.
+......B
+.W..B..
+.W.WW..
+WWW.W.W
+....WWW
+[HOME 24 GAME_ON]
+Oldie (W) played 2 3 3 4
+.BB.BBB
+B..BBB.
+......B
+.W..W..
+.W..W..
+WWW.W.W
+....WWW
+[AWAY 25 GAME_ON]
+Gentlemanly Scholar (B) played 4 6 3 5
+.BB.BBB
+B..BBB.
+.......
+.W..WB.
+.W..W..
+WWW.W.W
+....WWW
+[HOME 26 GAME_ON]
+Oldie (W) played 2 4 3 5
+.BB.BBB
+B..BBB.
+.......
+.W..WW.
+.W.....
+WWW.W.W
+....WWW
+[AWAY 27 GAME_ON]
+Gentlemanly Scholar (B) played 5 0 4 1
+.BB.BBB
+...BBB.
+.B.....
+.W..WW.
+.W.....
+WWW.W.W
+....WWW
+[HOME 28 GAME_ON]
+Oldie (W) played 0 4 1 5
+.BB.BBB
+...BBB.
+.B.....
+.W..WW.
+.W.....
+WWW.WWW
+.....WW
+[AWAY 29 GAME_ON]
+Gentlemanly Scholar (B) played 6 1 5 1
+..B.BBB
+.B.BBB.
+.B.....
+.W..WW.
+.W.....
+WWW.WWW
+.....WW
+[HOME 30 GAME_ON]
+Oldie (W) played 1 0 2 0
+..B.BBB
+.B.BBB.
+.B.....
+.W..WW.
+WW.....
+.WW.WWW
+.....WW
+[AWAY 31 GAME_ON]
+Gentlemanly Scholar (B) played 4 1 3 0
+..B.BBB
+.B.BBB.
+.......
+BW..WW.
+WW.....
+.WW.WWW
+.....WW
+[HOME 32 GAME_ON]
+Oldie (W) played 3 1 4 1
+..B.BBB
+.B.BBB.
+.W.....
+B...WW.
+WW.....
+.WW.WWW
+.....WW
+[AWAY 33 GAME_ON]
+Gentlemanly Scholar (B) played 3 0 2 1
+..B.BBB
+.B.BBB.
+.W.....
+....WW.
+WB.....
+.WW.WWW
+.....WW
+[HOME 34 GAME_ON]
+Oldie (W) played 1 2 2 1
+..B.BBB
+.B.BBB.
+.W.....
+....WW.
+WW.....
+.W..WWW
+.....WW
+[AWAY 35 GAME_ON]
+Gentlemanly Scholar (B) played 5 1 4 2
+..B.BBB
+...BBB.
+.WB....
+....WW.
+WW.....
+.W..WWW
+.....WW
+[HOME 36 GAME_ON]
+Oldie (W) played 1 1 2 2
+..B.BBB
+...BBB.
+.WB....
+....WW.
+WWW....
+....WWW
+.....WW
+[AWAY 37 GAME_ON]
+Gentlemanly Scholar (B) played 4 2 3 2
+..B.BBB
+...BBB.
+.W.....
+..B.WW.
+WWW....
+....WWW
+.....WW
+[HOME 38 GAME_ON]
+Oldie (W) played 1 4 2 4
+..B.BBB
+...BBB.
+.W.....
+..B.WW.
+WWW.W..
+.....WW
+.....WW
+[AWAY 39 GAME_ON]
+Gentlemanly Scholar (B) played 3 2 2 3
+..B.BBB
+...BBB.
+.W.....
+....WW.
+WWWBW..
+.....WW
+.....WW
+[HOME 40 GAME_ON]
+Oldie (W) played 4 1 5 2
+..B.BBB
+..WBBB.
+.......
+....WW.
+WWWBW..
+.....WW
+.....WW
+[AWAY 41 GAME_ON]
+Gentlemanly Scholar (B) played 2 3 1 3
+..B.BBB
+..WBBB.
+.......
+....WW.
+WWW.W..
+...B.WW
+.....WW
+[HOME 42 GAME_ON]
+Oldie (W) played 5 2 6 3
+..BWBBB
+...BBB.
+.......
+....WW.
+WWW.W..
+...B.WW
+.....WW
+[AWAY 43 HOME_WIN]
+Oldie (W) (414.946000 seconds remaining) won.
+Gentlemanly Scholar had 408.619000 seconds remaining.
