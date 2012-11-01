@@ -19,7 +19,7 @@ public class Tournament {
     public static ArrayList<GameThread> threads;
 	public static GamePlayer [] systematicPlayers = { new RandomBreakthroughPlayer("random+"),
 													new SystematicBreakthroughPlayer("systematic+", true) };
-	
+	 
 	public static final char SEP = File.separatorChar;
 	
 	private static class Game {

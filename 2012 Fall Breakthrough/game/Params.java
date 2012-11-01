@@ -25,6 +25,7 @@ public class Params {
 		}
 		catch (Exception e) {
 			System.err.printf("Problem reading %s%n", fname);
+			e.printStackTrace();
 		}
 	}
 	public boolean defined(String key)

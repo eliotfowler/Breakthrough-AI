@@ -1,0 +1,425 @@
+Good (W) played 1 0 2 0
+BBBBBBB
+BBBBBBB
+.......
+.......
+W......
+.WWWWWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+Coverage (B) played 5 1 4 1
+BBBBBBB
+B.BBBBB
+.B.....
+.......
+W......
+.WWWWWW
+WWWWWWW
+[HOME 2 GAME_ON]
+Good (W) played 0 0 1 0
+BBBBBBB
+B.BBBBB
+.B.....
+.......
+W......
+WWWWWWW
+.WWWWWW
+[AWAY 3 GAME_ON]
+Coverage (B) played 4 1 3 0
+BBBBBBB
+B.BBBBB
+.......
+B......
+W......
+WWWWWWW
+.WWWWWW
+[HOME 4 GAME_ON]
+Good (W) played 1 0 2 1
+BBBBBBB
+B.BBBBB
+.......
+B......
+WW.....
+.WWWWWW
+.WWWWWW
+[AWAY 5 GAME_ON]
+Coverage (B) played 3 0 2 1
+BBBBBBB
+B.BBBBB
+.......
+.......
+WB.....
+.WWWWWW
+.WWWWWW
+[HOME 6 GAME_ON]
+Good (W) played 1 2 2 1
+BBBBBBB
+B.BBBBB
+.......
+.......
+WW.....
+.W.WWWW
+.WWWWWW
+[AWAY 7 GAME_ON]
+Coverage (B) played 5 0 4 0
+BBBBBBB
+..BBBBB
+B......
+.......
+WW.....
+.W.WWWW
+.WWWWWW
+[HOME 8 GAME_ON]
+Good (W) played 0 1 1 2
+BBBBBBB
+..BBBBB
+B......
+.......
+WW.....
+.WWWWWW
+..WWWWW
+[AWAY 9 GAME_ON]
+Coverage (B) played 4 0 3 1
+BBBBBBB
+..BBBBB
+.......
+.B.....
+WW.....
+.WWWWWW
+..WWWWW
+[HOME 10 GAME_ON]
+Good (W) played 2 0 3 1
+BBBBBBB
+..BBBBB
+.......
+.W.....
+.W.....
+.WWWWWW
+..WWWWW
+[AWAY 11 GAME_ON]
+Coverage (B) played 5 2 4 1
+BBBBBBB
+...BBBB
+.B.....
+.W.....
+.W.....
+.WWWWWW
+..WWWWW
+[HOME 12 GAME_ON]
+Good (W) played 1 1 2 2
+BBBBBBB
+...BBBB
+.B.....
+.W.....
+.WW....
+..WWWWW
+..WWWWW
+[AWAY 13 GAME_ON]
+Coverage (B) played 5 3 4 3
+BBBBBBB
+....BBB
+.B.B...
+.W.....
+.WW....
+..WWWWW
+..WWWWW
+[HOME 14 GAME_ON]
+Good (W) played 0 2 1 1
+BBBBBBB
+....BBB
+.B.B...
+.W.....
+.WW....
+.WWWWWW
+...WWWW
+[AWAY 15 GAME_ON]
+Coverage (B) played 5 4 4 4
+BBBBBBB
+.....BB
+.B.BB..
+.W.....
+.WW....
+.WWWWWW
+...WWWW
+[HOME 16 GAME_ON]
+Good (W) played 1 1 2 0
+BBBBBBB
+.....BB
+.B.BB..
+.W.....
+WWW....
+..WWWWW
+...WWWW
+[AWAY 17 GAME_ON]
+Coverage (B) played 4 4 3 4
+BBBBBBB
+.....BB
+.B.B...
+.W..B..
+WWW....
+..WWWWW
+...WWWW
+[HOME 18 GAME_ON]
+Good (W) played 1 2 2 3
+BBBBBBB
+.....BB
+.B.B...
+.W..B..
+WWWW...
+...WWWW
+...WWWW
+[AWAY 19 GAME_ON]
+Coverage (B) played 3 4 2 3
+BBBBBBB
+.....BB
+.B.B...
+.W.....
+WWWB...
+...WWWW
+...WWWW
+[HOME 20 GAME_ON]
+Good (W) played 1 4 2 3
+BBBBBBB
+.....BB
+.B.B...
+.W.....
+WWWW...
+...W.WW
+...WWWW
+[AWAY 21 GAME_ON]
+Coverage (B) played 5 5 4 5
+BBBBBBB
+......B
+.B.B.B.
+.W.....
+WWWW...
+...W.WW
+...WWWW
+[HOME 22 GAME_ON]
+Good (W) played 0 3 1 4
+BBBBBBB
+......B
+.B.B.B.
+.W.....
+WWWW...
+...WWWW
+....WWW
+[AWAY 23 GAME_ON]
+Coverage (B) played 4 3 3 4
+BBBBBBB
+......B
+.B...B.
+.W..B..
+WWWW...
+...WWWW
+....WWW
+[HOME 24 GAME_ON]
+Good (W) played 1 3 2 4
+BBBBBBB
+......B
+.B...B.
+.W..B..
+WWWWW..
+....WWW
+....WWW
+[AWAY 25 GAME_ON]
+Coverage (B) played 3 4 2 3
+BBBBBBB
+......B
+.B...B.
+.W.....
+WWWBW..
+....WWW
+....WWW
+[HOME 26 GAME_ON]
+Good (W) played 1 4 2 3
+BBBBBBB
+......B
+.B...B.
+.W.....
+WWWWW..
+.....WW
+....WWW
+[AWAY 27 GAME_ON]
+Coverage (B) played 4 5 3 6
+BBBBBBB
+......B
+.B.....
+.W....B
+WWWWW..
+.....WW
+....WWW
+[HOME 28 GAME_ON]
+Good (W) played 0 4 1 4
+BBBBBBB
+......B
+.B.....
+.W....B
+WWWWW..
+....WWW
+.....WW
+[AWAY 29 GAME_ON]
+Coverage (B) played 4 1 3 2
+BBBBBBB
+......B
+.......
+.WB...B
+WWWWW..
+....WWW
+.....WW
+[HOME 30 GAME_ON]
+Good (W) played 2 1 3 2
+BBBBBBB
+......B
+.......
+.WW...B
+W.WWW..
+....WWW
+.....WW
+[AWAY 31 GAME_ON]
+Coverage (B) played 6 0 5 0
+.BBBBBB
+B.....B
+.......
+.WW...B
+W.WWW..
+....WWW
+.....WW
+[HOME 32 GAME_ON]
+Good (W) played 1 4 2 5
+.BBBBBB
+B.....B
+.......
+.WW...B
+W.WWWW.
+.....WW
+.....WW
+[AWAY 33 GAME_ON]
+Coverage (B) played 3 6 2 5
+.BBBBBB
+B.....B
+.......
+.WW....
+W.WWWB.
+.....WW
+.....WW
+[HOME 34 GAME_ON]
+Good (W) played 1 6 2 5
+.BBBBBB
+B.....B
+.......
+.WW....
+W.WWWW.
+.....W.
+.....WW
+[AWAY 35 GAME_ON]
+Coverage (B) played 5 0 4 0
+.BBBBBB
+......B
+B......
+.WW....
+W.WWWW.
+.....W.
+.....WW
+[HOME 36 GAME_ON]
+Good (W) played 3 1 4 0
+.BBBBBB
+......B
+W......
+..W....
+W.WWWW.
+.....W.
+.....WW
+[AWAY 37 GAME_ON]
+Coverage (B) played 6 1 5 0
+..BBBBB
+B.....B
+W......
+..W....
+W.WWWW.
+.....W.
+.....WW
+[HOME 38 GAME_ON]
+Good (W) played 3 2 4 1
+..BBBBB
+B.....B
+WW.....
+.......
+W.WWWW.
+.....W.
+.....WW
+[AWAY 39 GAME_ON]
+Coverage (B) played 5 0 4 1
+..BBBBB
+......B
+WB.....
+.......
+W.WWWW.
+.....W.
+.....WW
+[HOME 40 GAME_ON]
+Good (W) played 0 5 1 6
+..BBBBB
+......B
+WB.....
+.......
+W.WWWW.
+.....WW
+......W
+[AWAY 41 GAME_ON]
+Coverage (B) played 4 1 3 1
+..BBBBB
+......B
+W......
+.B.....
+W.WWWW.
+.....WW
+......W
+[HOME 42 GAME_ON]
+Good (W) played 1 5 2 6
+..BBBBB
+......B
+W......
+.B.....
+W.WWWWW
+......W
+......W
+[AWAY 43 GAME_ON]
+Coverage (B) played 3 1 2 1
+..BBBBB
+......B
+W......
+.......
+WBWWWWW
+......W
+......W
+[HOME 44 GAME_ON]
+Good (W) played 4 0 5 0
+..BBBBB
+W.....B
+.......
+.......
+WBWWWWW
+......W
+......W
+[AWAY 45 GAME_ON]
+Coverage (B) played 2 1 1 1
+..BBBBB
+W.....B
+.......
+.......
+W.WWWWW
+.B....W
+......W
+[HOME 46 GAME_ON]
+Good (W) played 5 0 6 0
+W.BBBBB
+......B
+.......
+.......
+W.WWWWW
+.B....W
+......W
+[AWAY 47 HOME_WIN]
+Good (W) (417.741000 seconds remaining) won.
+Coverage had 412.498000 seconds remaining.

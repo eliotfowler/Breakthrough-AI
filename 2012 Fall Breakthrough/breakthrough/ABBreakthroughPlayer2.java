@@ -262,7 +262,7 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 	public static void main(String [] args)
 	{
 		int depth = 6;
-		GamePlayer p = new ABBreakthroughPlayer2("Oldie", depth);
+		GamePlayer p = new ABBreakthroughPlayer2("Normal", depth);
 		p.compete(args);
 	}
 }

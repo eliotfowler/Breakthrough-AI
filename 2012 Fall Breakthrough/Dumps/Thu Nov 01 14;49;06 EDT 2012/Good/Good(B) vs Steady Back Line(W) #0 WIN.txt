@@ -1,0 +1,308 @@
+Steady Back Line (W) played 1 0 2 0
+BBBBBBB
+BBBBBBB
+.......
+.......
+W......
+.WWWWWW
+WWWWWWW
+[AWAY 1 GAME_ON]
+Good (B) played 5 0 4 0
+BBBBBBB
+.BBBBBB
+B......
+.......
+W......
+.WWWWWW
+WWWWWWW
+[HOME 2 GAME_ON]
+Steady Back Line (W) played 0 0 1 0
+BBBBBBB
+.BBBBBB
+B......
+.......
+W......
+WWWWWWW
+.WWWWWW
+[AWAY 3 GAME_ON]
+Good (B) played 4 0 3 0
+BBBBBBB
+.BBBBBB
+.......
+B......
+W......
+WWWWWWW
+.WWWWWW
+[HOME 4 GAME_ON]
+Steady Back Line (W) played 1 1 2 1
+BBBBBBB
+.BBBBBB
+.......
+B......
+WW.....
+W.WWWWW
+.WWWWWW
+[AWAY 5 GAME_ON]
+Good (B) played 3 0 2 1
+BBBBBBB
+.BBBBBB
+.......
+.......
+WB.....
+W.WWWWW
+.WWWWWW
+[HOME 6 GAME_ON]
+Steady Back Line (W) played 1 2 2 1
+BBBBBBB
+.BBBBBB
+.......
+.......
+WW.....
+W..WWWW
+.WWWWWW
+[AWAY 7 GAME_ON]
+Good (B) played 5 1 4 1
+BBBBBBB
+..BBBBB
+.B.....
+.......
+WW.....
+W..WWWW
+.WWWWWW
+[HOME 8 GAME_ON]
+Steady Back Line (W) played 0 1 1 1
+BBBBBBB
+..BBBBB
+.B.....
+.......
+WW.....
+WW.WWWW
+..WWWWW
+[AWAY 9 GAME_ON]
+Good (B) played 5 2 4 2
+BBBBBBB
+...BBBB
+.BB....
+.......
+WW.....
+WW.WWWW
+..WWWWW
+[HOME 10 GAME_ON]
+Steady Back Line (W) played 2 0 3 0
+BBBBBBB
+...BBBB
+.BB....
+W......
+.W.....
+WW.WWWW
+..WWWWW
+[AWAY 11 GAME_ON]
+Good (B) played 4 1 3 1
+BBBBBBB
+...BBBB
+..B....
+WB.....
+.W.....
+WW.WWWW
+..WWWWW
+[HOME 12 GAME_ON]
+Steady Back Line (W) played 1 1 2 2
+BBBBBBB
+...BBBB
+..B....
+WB.....
+.WW....
+W..WWWW
+..WWWWW
+[AWAY 13 GAME_ON]
+Good (B) played 3 1 2 2
+BBBBBBB
+...BBBB
+..B....
+W......
+.WB....
+W..WWWW
+..WWWWW
+[HOME 14 GAME_ON]
+Steady Back Line (W) played 1 3 2 2
+BBBBBBB
+...BBBB
+..B....
+W......
+.WW....
+W...WWW
+..WWWWW
+[AWAY 15 GAME_ON]
+Good (B) played 5 3 4 3
+BBBBBBB
+....BBB
+..BB...
+W......
+.WW....
+W...WWW
+..WWWWW
+[HOME 16 GAME_ON]
+Steady Back Line (W) played 0 2 1 2
+BBBBBBB
+....BBB
+..BB...
+W......
+.WW....
+W.W.WWW
+...WWWW
+[AWAY 17 GAME_ON]
+Good (B) played 4 2 3 2
+BBBBBBB
+....BBB
+...B...
+W.B....
+.WW....
+W.W.WWW
+...WWWW
+[HOME 18 GAME_ON]
+Steady Back Line (W) played 0 3 1 3
+BBBBBBB
+....BBB
+...B...
+W.B....
+.WW....
+W.WWWWW
+....WWW
+[AWAY 19 GAME_ON]
+Good (B) played 3 2 2 1
+BBBBBBB
+....BBB
+...B...
+W......
+.BW....
+W.WWWWW
+....WWW
+[HOME 20 GAME_ON]
+Steady Back Line (W) played 1 2 2 1
+BBBBBBB
+....BBB
+...B...
+W......
+.WW....
+W..WWWW
+....WWW
+[AWAY 21 GAME_ON]
+Good (B) played 4 3 3 4
+BBBBBBB
+....BBB
+.......
+W...B..
+.WW....
+W..WWWW
+....WWW
+[HOME 22 GAME_ON]
+Steady Back Line (W) played 1 3 2 3
+BBBBBBB
+....BBB
+.......
+W...B..
+.WWW...
+W...WWW
+....WWW
+[AWAY 23 GAME_ON]
+Good (B) played 3 4 2 3
+BBBBBBB
+....BBB
+.......
+W......
+.WWB...
+W...WWW
+....WWW
+[HOME 24 GAME_ON]
+Steady Back Line (W) played 1 4 2 3
+BBBBBBB
+....BBB
+.......
+W......
+.WWW...
+W....WW
+....WWW
+[AWAY 25 GAME_ON]
+Good (B) played 5 4 4 4
+BBBBBBB
+.....BB
+....B..
+W......
+.WWW...
+W....WW
+....WWW
+[HOME 26 GAME_ON]
+Steady Back Line (W) played 1 5 2 5
+BBBBBBB
+.....BB
+....B..
+W......
+.WWW.W.
+W.....W
+....WWW
+[AWAY 27 GAME_ON]
+Good (B) played 4 4 3 5
+BBBBBBB
+.....BB
+.......
+W....B.
+.WWW.W.
+W.....W
+....WWW
+[HOME 28 GAME_ON]
+Steady Back Line (W) played 0 4 1 4
+BBBBBBB
+.....BB
+.......
+W....B.
+.WWW.W.
+W...W.W
+.....WW
+[AWAY 29 GAME_ON]
+Good (B) played 3 5 2 4
+BBBBBBB
+.....BB
+.......
+W......
+.WWWBW.
+W...W.W
+.....WW
+[HOME 30 GAME_ON]
+Steady Back Line (W) played 0 5 1 5
+BBBBBBB
+.....BB
+.......
+W......
+.WWWBW.
+W...WWW
+......W
+[AWAY 31 GAME_ON]
+Good (B) played 2 4 1 3
+BBBBBBB
+.....BB
+.......
+W......
+.WWW.W.
+W..BWWW
+......W
+[HOME 32 GAME_ON]
+Steady Back Line (W) played 1 0 2 0
+BBBBBBB
+.....BB
+.......
+W......
+WWWW.W.
+...BWWW
+......W
+[AWAY 33 GAME_ON]
+Good (B) played 1 3 0 3
+BBBBBBB
+.....BB
+.......
+W......
+WWWW.W.
+....WWW
+...B..W
+[HOME 34 AWAY_WIN]
+Good (B) (418.730000 seconds remaining) won.
+Steady Back Line had 413.919000 seconds remaining.
