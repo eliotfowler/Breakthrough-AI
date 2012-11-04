@@ -8,12 +8,11 @@ import game.GameState.Who;
 // ABBreakthroughPlayer2 is identical to MiniMaxBreakthroughPlayer
 // except for the search process, which uses alpha beta pruning.
 
-public class ABBreakthroughPlayer2 extends GamePlayer {
+public class CopyOfABBreakthroughPlayer2 extends GamePlayer {
 	public final int MAX_DEPTH = 50;
 	public final int MAX_SCORE = Integer.MAX_VALUE;
 	public int depthLimit;
-	private int origDepth;
-	private double timeSpent = 0;
+	
 	
 	protected ScoredBreakthroughMove [] mvStack;
 	/**
@@ -49,10 +48,10 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 		}
 	}
 	
-	public ABBreakthroughPlayer2(String nname, int d)
+	public CopyOfABBreakthroughPlayer2(String nname, int d)
 	{ 
 		super(nname, new BreakthroughState(), true);
-		origDepth = d;
+		depthLimit = d;
 	}
 
 	/**
@@ -141,32 +140,10 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 		return num_home - num_away;
 	}
 	
-	private static int eval_win(BreakthroughState brd) {
-		int home = 0, away = 0;
-		int N = BreakthroughState.N;
-		for(int i=0; i<N; i++) {
-			if(brd.board[0][i] == BreakthroughState.homeSym){
-				home++;
-			}
-			if(brd.board[0][i] == BreakthroughState.awaySym){
-				away++;
-			}
-			
-			if(brd.board[N-1][i] == BreakthroughState.homeSym){
-				home++;
-			}
-			if(brd.board[N-1][i] == BreakthroughState.awaySym){
-				away++;
-			}
-		}
-		return home - away;
-	}
-	
 	//Evaluation Function
 	private static int evalBoard(BreakthroughState brd){
 		int h1 = eval_numpieces(brd);
 		int h3 = eval_coverage(brd);
-		int h4 = eval_win(brd);
 		return h1;
 	}
 	/**
@@ -195,12 +172,8 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 			
 			bestMove.set(0,0,0,0, bestScore);
 			GameState.Who currTurn = brd.getWho();
-			char opp = brd.who == GameState.Who.HOME ?
-					BreakthroughState.awaySym : BreakthroughState.homeSym;
 			
 			ArrayList<BreakthroughMove> moves = new ArrayList<BreakthroughMove>();
-			ArrayList<BreakthroughMove> genericMoves = new ArrayList<BreakthroughMove>();
-			ArrayList<BreakthroughMove> takeMoves = new ArrayList<BreakthroughMove>();
 			BreakthroughMove mv = new BreakthroughMove();
 			int dir = brd.getWho() == GameState.Who.HOME ? +1 : -1;
 			
@@ -212,30 +185,18 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 					mv.endingRow = r+dir; 
 					mv.endingCol = c;
 					if (brd.moveOK(mv)) {
-						if (brd.board[mv.endingRow][mv.endingCol] == opp) {
-							takeMoves.add((BreakthroughMove)mv.clone());
-						}
-						else genericMoves.add((BreakthroughMove)mv.clone());
+							moves.add((BreakthroughMove)mv.clone());
 					}
 					mv.endingRow = r+dir; mv.endingCol = c+1;
 					if (brd.moveOK(mv)) {
-						if (brd.board[mv.endingRow][mv.endingCol] == opp) {
-							takeMoves.add((BreakthroughMove)mv.clone());
-						}
-						else genericMoves.add((BreakthroughMove)mv.clone());
+							moves.add((BreakthroughMove)mv.clone());
 					}
 					mv.endingRow = r+dir; mv.endingCol = c-1;
 					if (brd.moveOK(mv)) {
-						if (brd.board[mv.endingRow][mv.endingCol] == opp) {
-							takeMoves.add((BreakthroughMove)mv.clone());
-						}
-						else genericMoves.add((BreakthroughMove)mv.clone());
+							moves.add((BreakthroughMove)mv.clone());
 					}
 				}
 			}
-			
-			moves.addAll(takeMoves);
-			moves.addAll(genericMoves);
 			
 			for(int i=0; i<moves.size(); i++) {
 				BreakthroughMove tmp = moves.get(i);
@@ -281,37 +242,12 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 			}
 		}
 	}
-	public void timeOfLastMove(double secs){
-		timeSpent += secs;
-	}
+		
 	public GameMove getMove(GameState brd, String lastMove)
 	{ 
-		int pieceDifference = eval_numpieces((BreakthroughState) brd);
-		double timeRemaining = 420.000000 - timeSpent; 
-		if(brd.numMoves < 10 ){
-			depthLimit = 3;
-		}else {
-			if(pieceDifference == 2){
-				depthLimit = 5;
-			}else if(pieceDifference > 2){
-				depthLimit = 3;
-			}else if(pieceDifference < 0 && brd.numMoves > 20){
-				depthLimit = 8;
-			}else if(timeRemaining < 150.0){
-				depthLimit = 6;
-			}else if(timeRemaining < 100.0)
-			{
-				depthLimit = 5;
-			}else if(timeRemaining < 50.0){
-				depthLimit = 3;
-			}else{
-				depthLimit = origDepth;
-			}
-		}
 		alphaBeta((BreakthroughState)brd, 0, Double.NEGATIVE_INFINITY, 
 										 Double.POSITIVE_INFINITY);
 		System.out.println(mvStack[0].score);
-		System.out.println("Time remaining: " + (420.00 - timeSpent) );
 		return mvStack[0];
 	}
 	
@@ -325,8 +261,8 @@ public class ABBreakthroughPlayer2 extends GamePlayer {
 	
 	public static void main(String [] args)
 	{
-		int depth = 10;
-		GamePlayer p = new ABBreakthroughPlayer2("Normal", depth);
+		int depth = 7;
+		GamePlayer p = new CopyOfABBreakthroughPlayer2("Copy of Normal", depth);
 		p.compete(args);
 	}
 }

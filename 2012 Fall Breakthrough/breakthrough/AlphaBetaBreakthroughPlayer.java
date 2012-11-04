@@ -48,6 +48,11 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 			endingCol = ecol;
 			score = s;
 		}
+		public String toString2(){
+	            return "Starting Position: (" +startRow + "," +startCol+ ") " +
+	                    "Ending Position: (" +endingRow + "," +endingCol+ ")" +
+	                    "with score:"  + score;
+	    }
 	}
 	
 	protected class AlphaBetaThread extends Thread{
@@ -156,7 +161,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 			//System.out.println();
 			alphaBeta((BreakthroughState)brd, 1, Double.NEGATIVE_INFINITY, 
 					 Double.POSITIVE_INFINITY); //Set cur depth to 1, since it technically starts at 1?
-			mvStack[0].set(mvStack[0].startRow, mvStack[0].startCol, mvStack[0].endingRow, mvStack[0].endingCol, evalBoard(brd)); //Give first move a better score?
+			//mvStack[0].set(mvStack[0].startRow, mvStack[0].startCol, mvStack[0].endingRow, mvStack[0].endingCol, evalBoard(brd)); //Give first move a better score?
 			threadMoves.set(id, mvStack);
 			//System.out.println(threadMoves.get(id));
 		}
@@ -427,6 +432,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		*/
 		
 		for(BreakthroughMove m : firstMoves) {
+			//System.out.println(m);
 			BreakthroughMove tmp = m;
 			char tmpchar = ((BreakthroughState)brd).board[tmp.endingRow][tmp.endingCol];
 			Who curWho = brd.getWho();
@@ -479,6 +485,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		ScoredBreakthroughMove bestMove = new ScoredBreakthroughMove(0,0,0,0,toMaximize ? Double.NEGATIVE_INFINITY : Double.POSITIVE_INFINITY);
 		//System.out.println(threadMoves.size());
 		for(ScoredBreakthroughMove[] moves: threadMoves){			
+			//System.out.println(moves[0].toString2());
 			// Check out the results, relative to what we've seen before
 			if (toMaximize && moves[0].score > bestMove.score) {
 				bestMove.set(moves[0].startRow, moves[0].startCol, moves[0].endingRow, moves[0].endingCol, moves[0].score);
@@ -488,6 +495,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		}
 		brd.makeMove(bestMove);
 		System.out.println(bestMove.score);
+		threadMoves.clear();
 		return bestMove;
 	}
 	
