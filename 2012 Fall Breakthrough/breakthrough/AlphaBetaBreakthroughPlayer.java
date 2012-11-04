@@ -14,7 +14,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 	public final int MAX_SCORE = Integer.MAX_VALUE;
 	public int depthLimit;
 	public ArrayList<AlphaBetaThread> threads = new ArrayList<AlphaBetaThread>();
-	Vector<ScoredBreakthroughMove[]> threadMoves = new Vector<ScoredBreakthroughMove[]>();
+	public Vector<ScoredBreakthroughMove[]> threadMoves = new Vector<ScoredBreakthroughMove[]>();
 	
 	protected ScoredBreakthroughMove [] mvStack;
 	/**
@@ -50,11 +50,11 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		}
 	}
 	
-	protected class AlphaBetaThread extends Thread implements Runnable{
+	protected class AlphaBetaThread extends Thread{
 		private ScoredBreakthroughMove[] mvStack;
 		private BreakthroughState brd;
 		private int id;
-		private int depthLimit = 2;
+		private int depthLimit = 6;
 		
 		public AlphaBetaThread(int tid, BreakthroughState board){
 			id = tid;
@@ -64,7 +64,7 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		
 		private void alphaBeta(BreakthroughState brd, int currDepth,
 				double alpha, double beta)
-		{
+		{ // For some reason both min and max moves end up in mvStack
 			boolean toMaximize = (brd.getWho() == GameState.Who.HOME);
 			boolean toMinimize = !toMaximize;
 
@@ -153,11 +153,12 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 		}
 		
 		public void run(){
-			
-			alphaBeta((BreakthroughState)brd, 0, Double.NEGATIVE_INFINITY, 
-					 Double.POSITIVE_INFINITY);
+			//System.out.println();
+			alphaBeta((BreakthroughState)brd, 1, Double.NEGATIVE_INFINITY, 
+					 Double.POSITIVE_INFINITY); //Set cur depth to 1, since it technically starts at 1?
+			mvStack[0].set(mvStack[0].startRow, mvStack[0].startCol, mvStack[0].endingRow, mvStack[0].endingCol, evalBoard(brd)); //Give first move a better score?
 			threadMoves.set(id, mvStack);
-			
+			//System.out.println(threadMoves.get(id));
 		}
 		
 	}
@@ -389,14 +390,8 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 			}
 		}
 	}*/
-		
-	public GameMove getMove(GameState bord, String lastMove)
-	{   
-		
-		BreakthroughState brd = (BreakthroughState)bord;
-		//alphaBeta((BreakthroughState)brd, 0, Double.NEGATIVE_INFINITY, 
-		//								 Double.POSITIVE_INFINITY);
-		ArrayList<BreakthroughMove> firstMoves = new ArrayList<BreakthroughMove>();
+	private ArrayList<BreakthroughMove> generateMoves(BreakthroughState brd){
+		ArrayList<BreakthroughMove> moves = new ArrayList<BreakthroughMove>();
 		BreakthroughMove mv = new BreakthroughMove();
 		int dir = brd.getWho() == GameState.Who.HOME ? +1 : -1;
 		
@@ -407,24 +402,38 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 				mv.endingRow = r+dir; 
 				mv.endingCol = c;
 				if (brd.moveOK(mv)) {
-						firstMoves.add((BreakthroughMove)mv.clone());
+						moves.add((BreakthroughMove)mv.clone());
 				}
 				mv.endingRow = r+dir; mv.endingCol = c+1;
 				if (brd.moveOK(mv)) {
-						firstMoves.add((BreakthroughMove)mv.clone());
+						moves.add((BreakthroughMove)mv.clone());
 				}
 				mv.endingRow = r+dir; mv.endingCol = c-1;
 				if (brd.moveOK(mv)) {
-						firstMoves.add((BreakthroughMove)mv.clone());
+						moves.add((BreakthroughMove)mv.clone());
 				}
 			}
 		}
+		return moves;
+	}
+	private void createThreads(ArrayList<BreakthroughMove> firstMoves, BreakthroughState brd){
 		int i = 0;
+		//Works with only one thread that does alpha beta by itself
+		/*
+		ScoredBreakthroughMove[] newMvStack = mvStack.clone();
+		threadMoves.add(newMvStack);
+		AlphaBetaThread t1 = new AlphaBetaThread(i, (BreakthroughState)brd.clone());
+		threads.add(t1);
+		*/
+		
 		for(BreakthroughMove m : firstMoves) {
 			BreakthroughMove tmp = m;
 			char tmpchar = ((BreakthroughState)brd).board[tmp.endingRow][tmp.endingCol];
 			Who curWho = brd.getWho();
 			brd.makeMove(tmp);
+			//Unsure if this is actually needed, Trying to keep track of the first move.
+			ScoredBreakthroughMove move = new ScoredBreakthroughMove(tmp.startRow, tmp.startCol, tmp.endingRow, tmp.endingCol,eval_numpieces(brd));
+			mvStack[0] = move; 
 			ScoredBreakthroughMove[] newMvStack = mvStack.clone();
 			threadMoves.add(newMvStack);
 			AlphaBetaThread t1 = new AlphaBetaThread(i, (BreakthroughState)brd.clone());
@@ -434,31 +443,50 @@ public class AlphaBetaBreakthroughPlayer extends GamePlayer {
 			 * temp's end row/end col that there is nothing there and at the
 			 * temp's start row/col that there is a home or away piece, depending
 			 * and then subtract 1 from the number of moves				
-			 */
+			*/
 			brd.who = curWho;
 			char PLAYER = brd.who == GameState.Who.HOME ? BreakthroughState.homeSym : BreakthroughState.awaySym;
 			
 			brd.board[tmp.endingRow][tmp.endingCol] = tmpchar;
 			brd.board[tmp.startRow][tmp.startCol] = PLAYER;
 			brd.numMoves--;
-			brd.status = GameState.Status.GAME_ON;
-			i++;
+			brd.status = GameState.Status.GAME_ON;  
+			i++; 
+		} 
+	}
+	//Wrong move is being generated, for some reason away move is being sent for home sometimes, and later bad moves are generated.
+	public GameMove getMove(GameState bord, String lastMove)
+	{   
+		
+		BreakthroughState brd = (BreakthroughState)bord;
+		//alphaBeta((BreakthroughState)brd, 0, Double.NEGATIVE_INFINITY, 
+		//								 Double.POSITIVE_INFINITY);
+		ArrayList<BreakthroughMove> firstMoves = generateMoves(brd);
+		createThreads(firstMoves,brd);
+		for(AlphaBetaThread t : threads) { 
+				t.start();
+				//t.join(); // Need to remove this later, defeats purpose of using threads -- not concurrent
+				//System.out.println("Finished thread!");
+		
 		}
-		for(AlphaBetaThread t : threads) {
-			t.start();
+		threads.clear(); // Remove all stored threads
+		
+		while(Thread.activeCount() > 1){ // There's always one thread in the queue -- Main.
+			;//System.out.println("Waiting....");
 		}
-		ScoredBreakthroughMove bestMove = new ScoredBreakthroughMove(0,0,0,0,0);
-		int bestScore = 0;
+		
 		boolean toMaximize = (brd.getWho() == GameState.Who.HOME);
-		bestScore = toMaximize ? -1000000 : 1000000;
-		for(ScoredBreakthroughMove[] moves: threadMoves){
+		ScoredBreakthroughMove bestMove = new ScoredBreakthroughMove(0,0,0,0,toMaximize ? Double.NEGATIVE_INFINITY : Double.POSITIVE_INFINITY);
+		//System.out.println(threadMoves.size());
+		for(ScoredBreakthroughMove[] moves: threadMoves){			
 			// Check out the results, relative to what we've seen before
-			if (toMaximize && moves[0].score > bestScore) {
+			if (toMaximize && moves[0].score > bestMove.score) {
 				bestMove.set(moves[0].startRow, moves[0].startCol, moves[0].endingRow, moves[0].endingCol, moves[0].score);
 			} else if (!toMaximize && moves[0].score < bestMove.score) {
 				bestMove.set(moves[0].startRow, moves[0].startCol, moves[0].endingRow, moves[0].endingCol, moves[0].score);
 			}
 		}
+		brd.makeMove(bestMove);
 		System.out.println(bestMove.score);
 		return bestMove;
 	}

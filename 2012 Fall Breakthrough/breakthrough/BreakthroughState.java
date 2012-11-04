@@ -4,7 +4,7 @@ import game.*;
 import java.util.*;
 
 public class BreakthroughState extends GameState {
-	public static final Params gameParams = new Params("config/breakthrough.txt");
+	public static final Params gameParams = new Params("./config/breakthrough.txt");
 	public static final int N = gameParams.integer("ROWS");
 	public static final char homeSym = gameParams.character("HOMESYM");
 	public static final char awaySym = gameParams.character("AWAYSYM");
